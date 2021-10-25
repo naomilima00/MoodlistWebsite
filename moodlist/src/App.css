@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Serif&display=swap');
+
+.App{
+  background-color: #171717;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+
+/*homepage.js*/
+.welcome-title{
+  font-size: 144px;
+  color: white;
+  padding: 200px  0px 0px 0px;
+}
+
+button.login-button{
+  width: 700px;
+  height: 150px;
+  font-size: 72px;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: #34CA70;
+  border-radius: 100px;
+}
+
+/*question.js*/
+.btn{
+  width: 500px;
+  background-color: blue;
+}
+.btn-success{
+  background-color: blue;
+}
+.dropdown-menu{
+  width: 500px;
+}
+.dropdown-item{
+  font-size: 90px;
+}
+
+/* https://react-bootstrap.netlify.app/components/dropdowns/#custom-dropdown-components */
