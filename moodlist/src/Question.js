@@ -9,7 +9,7 @@ function Question() {
   return (
     <div className="App">
         <div>
-            <h1 className="welcome-title">I am feeling</h1>
+            <h1 className="description-q">I am feeling</h1>
             <>
             <Dropdown>
               <Dropdown.Toggle variant="success" id="dropdown-basic">

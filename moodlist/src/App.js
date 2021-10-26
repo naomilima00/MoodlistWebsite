@@ -11,8 +11,8 @@ import Question from './Question';
 function App() {
   return (
     <div className="App">
-     <Homepage />
-     {/* <Question/> */}
+     {/* <Homepage /> */}
+     <Question/>
     </div>
   )
 }
