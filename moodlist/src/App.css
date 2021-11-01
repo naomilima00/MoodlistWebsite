@@ -24,16 +24,6 @@ button.login-button{
   border-radius: 100px;
 }
 
-button.login-button{
-  width: 700px;
-  height: 150px;
-  font-size: 72px;
-  color: white;
-  font-family: 'Bebas Neue', sans-serif;
-  background-color: #34CA70;
-  border-radius: 100px;
-}
-
 /*question.js*/
 
 .dropdown-menu{
