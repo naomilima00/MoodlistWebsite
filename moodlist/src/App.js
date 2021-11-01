@@ -6,7 +6,7 @@ import Button from 'react';
 import {Dropdown, ButtonGroup} from 'react-bootstrap';
 
 import Homepage from './Homepage';
-import Question from './Happy - First Question';
+import Question from './Happy/Question';
 
 function App() {
   return (
