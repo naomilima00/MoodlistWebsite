@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #F8F4DD;
+    background-image: url(Happy.png);
+    background-size: auto;
+    color: white;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: .15rem;
+    font-size: 2.3rem;
+}
+
+.display {
+    display: flex;
+}
+
+.buttons {  /* container */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    padding-right: 9rem;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.playlist {
+    display: flex;
+    flex: 1;
+    margin: 2rem;
+    margin-top: 2.5rem;
+    padding-left: 9rem;
+}
+
+.btn {  /* individual buttons */
+    padding: 1.5rem;
+    width: 32rem;
+    height: 8rem;
+    margin: 1.5rem;
+    
+    background-color: #fff;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.493);
+
+    font-size: 4rem;
+    color: #FE9B50;
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+    background: linear-gradient(140deg, #FF6B3B 32.48%, #FE9B50 54.6%, #FEC763 74.95%);
+}
+
+/*--------------------------------------------------------------*/
+@media screen and (max-width: 1300px){
+    .btn {
+        width: 26rem;
+        font-size: 3rem;
+    }
+  }
+@media screen and (max-width: 1150px){
+    .btn {
+        width: 20rem;
+        font-size: 2.5rem;
+    }
+    .question {
+        font-size: 1.8rem;
+    }
+    .playlist {
+        margin: 1rem;
+        margin-top: 2rem;
+        padding-left: 7rem;
+    }
+    .buttons {
+        padding-right: 7rem;
+    }
+  }
+@media screen and (max-width: 900px){
+    .question {
+        margin-top: 3rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        font-size: 1.8rem;
+    }
+    .btn {
+        width: 18rem;
+        font-size: 2.3rem;
+    }
+    .playlist {
+        margin: 1rem;
+        margin-top: 2rem;
+        padding-left: 5rem;
+    }
+    .buttons {
+        padding-right: 5rem;
+    }
+  }
+@media screen and (max-width: 800px){
+    .question {
+        margin-top: 3rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        font-size: 1.8rem;
+    }
+    .btn {
+        width: 15rem;
+        font-size: 2rem;
+    }
+    .playlist {
+        margin: 1rem;
+        margin-top: 2rem;
+        padding-left: 5rem;
+    }
+    .buttons {
+        padding-right: 5rem;
+    }
+  }
+@media screen and (max-width: 700px){
+    .question {
+        margin-top: 3rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        font-size: 1.8rem;
+    }
+    .btn {
+        width: 12rem;
+        font-size: 2rem;
+    }
+    .playlist {
+        margin: 1rem;
+        margin-top: 2rem;
+        padding-left: 3rem;
+    }
+    .buttons {
+        padding-right: 3rem;
+    }
+  }
+@media screen and (max-width: 500px){
+    .question {
+        margin-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.5rem;
+    }
+    .display {
+        flex-direction: column;
+    }
+    .btn {
+        width: 18rem;
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+    .playlist {
+        margin-top: 0rem;
+    }
+    .buttons {
+        align-content: center;
+        padding-right: 0rem;
+    }
+  }
